@@ -6,4 +6,4 @@
 
 ### Install Docker
 - to install docker I first went to [Install Docker Desktop on Windows](https://docs.docker.com/desktop/windows/install/) to install docker desktop for windows. Then to install on ubuntu I followed the steps from the guide [Install Docker Engine on Ubuntu
-](https://docs.docker.com/engine/install/ubuntu/), 
+](https://docs.docker.com/engine/install/ubuntu/), and then followed the steps in the guide to install using the repository. 
