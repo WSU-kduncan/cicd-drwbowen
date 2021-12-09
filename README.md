@@ -13,3 +13,6 @@
 - To run the container I used the command "docker run -dit -p 8080:80 website".
 ### View the Project
 - to view the project I went into powershell and found my ipv4 address which is 192.168.1.118, so I then went into my browser and typed 192.168.1.118:8080 which specifies the ip address and the port that the project is being put out on and it showed me my simple html file that I have created for this project.
+## PART 2
+### Create a DockerHub Public Repo
+- To create the public repo you first have to create your DockerHub account, then click the repositories link at the top center of the screen. After that you click the create repository button, name the repo and hit create. 
