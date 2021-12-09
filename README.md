@@ -16,3 +16,5 @@
 ## PART 2
 ### Create a DockerHub Public Repo
 - To create the public repo you first have to create your DockerHub account, then click the repositories link at the top center of the screen. After that you click the create repository button, name the repo and hit create. 
+### Allow DockerHub Authentication via CLI
+- to do this you jsut go into your security setting in your DockerHub account and click the create a new token button. this creates a token that you can put on whatever system that you want to give access to, without using your user name and password every time. Also git hub is going to need this token.
