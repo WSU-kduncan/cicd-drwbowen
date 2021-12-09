@@ -22,3 +22,6 @@
 - the creditials that you need are the user name and password for you DockerHub account. you then go to your repo setting on gitHub and add secrets, so your DOCKER_USERNAME then give it your username for dockerhub, and DOCKER_PASSWORD, and enter your password for your DockerHub Avvount. then gitHub will encrypt your information that you entered and no one will be able to read it. 
 ### Configure GitHub Workflow
 - really the only variable that I had to change on this workflow was my DockerHub repo name, to my dockerHub repo name.
+
+## DEPLOYMENT
+- first you go into an AWS instance and install docker the same way that I did on my local system. Then use "sudo docker pull drwbowen/project6" to pull the image from DockerHub. then to run the image use "sudo docker run -dit -p 8080:80 drwbowen/project6". This will have the image running on port 80 of the host.
